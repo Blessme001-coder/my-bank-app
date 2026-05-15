@@ -1,0 +1,64 @@
+[
+  {
+    "owner": "Ezie Odoteh",
+    "balance": 3600000.0,
+    "history": [
+      "Deposited 100000.00",
+      "Withdrew 1000.00",
+      "Deposited 50000.00",
+      "Deposited 40000.00",
+      "Deposited 300000.00",
+      "Deposited 1000.00",
+      "Deposited 1000.00",
+      "Withdrew 1000.00",
+      "Deposited 10000.00",
+      "Deposited 540000.00",
+      "Deposited 2560000.00"
+    ]
+  },
+  {
+    "owner": "Juliet",
+    "balance": 1076000.0,
+    "history": [
+      "Deposited 60000.00",
+      "Withdrew 500.00",
+      "Deposited 90000.00",
+      "Deposited 500.00",
+      "Deposited 150000.00",
+      "Deposited 540000.00",
+      "Deposited 256000.00",
+      "Transferred 20000.00 to Abigael Florencia"
+    ]
+  },
+  {
+    "owner": "Calvin Bernard",
+    "balance": 80000.0,
+    "history": [
+      "Deposited 80000.00"
+    ]
+  },
+  {
+    "owner": "Angelah Sabbath Paulah",
+    "balance": 70000.0,
+    "history": [
+      "Deposited 70000.00"
+    ]
+  },
+  {
+    "owner": "Isaac John",
+    "balance": 60000.0,
+    "history": [
+      "Deposited 60000.00"
+    ]
+  },
+  {
+    "owner": "Abigael Florencia",
+    "balance": 70000.0,
+    "history": [
+      "Deposited 60000.00",
+      "Deposited 50000.00",
+      "Withdrew 60000.00",
+      "Received 20000.00 from Juliet"
+    ]
+  }
+]
