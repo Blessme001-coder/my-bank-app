@@ -13,13 +13,16 @@ BLUE      = "#2E86AB"
 TEXT      = "#E0E0FF"
 TEXT2     = "#8888AA"
 LOG_BG    = "#12122A"
+PANEL     = "#16213E"
+SUBTEXT   = "#8888AA"
 
 
 class BankApp:
 
-    def __init__(self, root):
+    def __init__(self, root, username="User"):
         self.root = root
-        self.root.title("THE BANK OF ODOTEH")
+        self.username = username
+        self.root.title(f"THE BANK OF ODOTEH - {self.username}'s Dashboard")
         self.root.geometry("460x620")
         self.root.resizable(False, False)
         self.root.configure(bg=BG)
@@ -31,8 +34,10 @@ class BankApp:
         hdr.pack(fill="x")
         tk.Label(hdr, text="🏦  THE BANK OF ODOTEH", bg=BG2,
                  fg=TEXT, font=("Helvetica", 22, "bold")).pack()
-        tk.Label(hdr, text="Secure • Simple • Yours", bg=BG2,
-                 fg=TEXT2, font=("Helvetica", 10)).pack()
+        tk.Label(hdr,
+                 text=f"Welcome back, {self.username.capitalize()}",
+                 bg=PANEL, fg=SUBTEXT,
+                 font=("Helvetica", 9)).pack()
 
         inp = tk.Frame(self.root, bg=BG, pady=14, padx=20)
         inp.pack(fill="x")
